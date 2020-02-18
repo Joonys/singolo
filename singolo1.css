@@ -93,5 +93,43 @@ a {
   color: #f06c64;
 }
 
+/* Slider
+===================*/
 
+.slider {
+  padding-top: 53px;
+  padding-bottom: 56px;
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+
+.slider__inner {
+  padding-left: 73px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.slider__button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__button:hover {
+  opacity: 0.6;
+}
+
+.slider__button--prev {
+  top: 227px;
+  left: -4px;
+}
+
+.slider__button--next {
+  top: 227px;
+  right: -6px;
+}
 
