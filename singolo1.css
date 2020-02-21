@@ -133,3 +133,101 @@ a {
   right: -6px;
 }
 
+/* Services
+===================*/
+.services {
+  padding-top: 43px;
+  padding-bottom: 32px;
+  border-bottom: 6px solid #ffffff;
+}
+
+.services__title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+  letter-spacing: -0.3px;
+  line-height: 17.86px;
+}
+
+.services__description::first-line {
+  letter-spacing: 0.15px;
+} 
+
+.services__description {
+  margin-bottom: 46px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.services__item {
+  position: relative;
+  width: 300px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+
+.services__subtitle {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.14px;
+  line-height: 17.86px;
+}
+
+.services__text {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.services__item::before {
+  position: absolute;
+  display: block;
+  content:'';
+  width: 59px;
+  height: 59px;
+  top: 2px;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #666d89;
+} 
+
+.services__item--design {
+  background: url('/assets/images/pen.png')  no-repeat 14px 15px;
+}
+
+.services__item--ideas {
+  background: url('/assets/images/bulb.png')  no-repeat 19px 14px;
+}
+
+.services__item--answers {
+  background: url('/assets/images/heart.png')  no-repeat 14px 17px;
+}
+.services__item--layouts {
+  background: url('/assets/images/phone.png')  no-repeat 19px 16px;
+}
+.services__item--support {
+  background: url('/assets/images/bubble.png')  no-repeat 14px 18px;
+}
+.services__item--star {
+  background: url('/assets/images/star.png')  no-repeat 14px 16px; 
+} 
+
+
+
