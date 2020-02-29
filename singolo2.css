@@ -85,3 +85,105 @@
   width: 100%;
   height: auto;
 }
+
+.about-us {
+  padding-top: 44px;
+  padding-bottom: 55px;
+  background-color: #f2f2f2;
+  border-bottom: solid 6px #fff;
+}
+
+.about-us__title {
+  margin-bottom: 27px;
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 17.86px;
+  letter-spacing: -0.15px;
+}
+
+.about-us__description {
+  margin-bottom: 45px;
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-us__description::first-line {
+  letter-spacing: 0.15px;
+}
+
+.about-us__team {
+  display: flex;
+  max-width: 300px;
+}
+
+.about-us__item:first-child {
+  margin-right: 19px;
+}
+
+.about-us__item:nth-child(2) {
+  margin-right: 21px;
+}
+
+.person__name {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 17.86px;
+  letter-spacing: -0.2px;
+}
+
+.person__description {
+  margin-bottom: 24px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.02px;
+  overflow: hidden;
+}
+
+.person__description--adam:first-line {
+  letter-spacing: -0.14px;
+}
+
+.person__description--adam {
+  letter-spacing: -0.005px;
+}
+
+.person__description--miles {
+  letter-spacing: -0.003px;
+}
+
+.social {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__item:hover {
+  opacity: 0.6;
+}
