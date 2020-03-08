@@ -1,5 +1,5 @@
 .quote {
-  padding: 39px 0 21px;
+  padding: 39px 0 22px;
   background-color: #f06c64;
   border: solid 6px #ea676b;
 }
@@ -156,4 +156,27 @@
   height: 8px;
   top: 5px;
   left: 0px;
+}
+
+.footer {
+  height: 76px;
+  background-color: #2d303a;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  padding-top: 29px;
+  padding-left: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #666d89;
+  letter-spacing: -0.15px;
+}
+
+.footer__social {
+  padding-top: 10px;
 }
