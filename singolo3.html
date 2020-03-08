@@ -8,5 +8,73 @@
     <link rel="stylesheet" href="singolo2.css" />
     <link rel="stylesheet" href="singolo3.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="quote">
+      <div class="container">
+        <h2 class="qoute__title">Get a Quote</h2>
+        <p class="quote__description">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="quote__inner">
+          <form
+            action="https://echo.htmlacademy.ru/"
+            class="form"
+            method="POST"
+          >
+            <input
+              class="form__input"
+              type="text"
+              name="first-name"
+              placeholder="Name (Required)"
+              required
+            />
+            <input
+              class="form__input"
+              type="email"
+              name="email"
+              placeholder="Email (Required)"
+              required
+            />
+            <textarea
+              class="form__input"
+              name="comment"
+              id="comment-field"
+              cols="30"
+              rows="10"
+              placeholder="Describe your project in detail..."
+            ></textarea>
+            <button class="button form__button">Submit</button>
+          </form>
+
+          <div class="contacts">
+            <h2 class="contacts__title">Contact Information</h2>
+            <p class="contacts__description">
+              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+              Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
+              sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+              consequat felis.
+            </p>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a class="contacts__link" href="#">Elm St. 14/05 Lost City </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:+035283318635"
+                  >03528 331 86 35
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:info@singolo.com"
+                  >info@singolo.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
