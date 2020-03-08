@@ -208,24 +208,24 @@ a {
 }
 
 .services__item--design {
-  background: url('/assets/images/pen.png') no-repeat 14px 15px;
+  background: url('assets/images/pen.png') no-repeat 14px 15px;
 }
 
 .services__item--ideas {
-  background: url('/assets/images/bulb.png') no-repeat 19px 14px;
+  background: url('assets/images/bulb.png') no-repeat 19px 14px;
 }
 
 .services__item--answers {
-  background: url('/assets/images/heart.png') no-repeat 14px 17px;
+  background: url('assets/images/heart.png') no-repeat 14px 17px;
 }
 .services__item--layouts {
-  background: url('/assets/images/phone.png') no-repeat 19px 16px;
+  background: url('assets/images/phone.png') no-repeat 19px 16px;
 }
 .services__item--support {
-  background: url('/assets/images/bubble.png') no-repeat 14px 18px;
+  background: url('assets/images/bubble.png') no-repeat 14px 18px;
 }
 .services__item--star {
-  background: url('/assets/images/star.png') no-repeat 14px 16px;
+  background: url('assets/images/star.png') no-repeat 14px 16px;
 }
 
 /* Portfolio
@@ -566,7 +566,7 @@ a {
 .contacts__link--location::before {
   content: '';
   position: absolute;
-  background-image: url('/assets/images/location-icon.png');
+  background-image: url('assets/images/location-icon.png');
   background-repeat: no-repeat;
   width: 7px;
   height: 12px;
@@ -577,7 +577,7 @@ a {
 .contacts__link--phone::before {
   content: '';
   position: absolute;
-  background-image: url('/assets/images/phone-icon.png');
+  background-image: url('assets/images/phone-icon.png');
   background-repeat: no-repeat;
   width: 11px;
   height: 11px;
@@ -588,7 +588,7 @@ a {
 .contacts__link--mail::before {
   content: '';
   position: absolute;
-  background-image: url('/assets/images/mail-icon.png');
+  background-image: url('assets/images/mail-icon.png');
   background-repeat: no-repeat;
   width: 13px;
   height: 8px;
