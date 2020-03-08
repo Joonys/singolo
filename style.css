@@ -192,7 +192,7 @@ a {
 
 .services__text {
   margin: 0;
-  max-height: 93px;
+  max-height: 70px;
   font-size: 12px;
   letter-spacing: 0;
   line-height: 22px;
@@ -358,7 +358,6 @@ a {
 .about-us__team {
   display: flex;
   max-width: 300px;
-  overflow: hidden;
 }
 
 .about-us__item:first-child {
@@ -388,11 +387,13 @@ a {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: -0.02px;
+  max-width: 300px;
+  max-height: 40px;
   overflow: hidden;
 }
 
 .person__description--adam:first-line {
-  letter-spacing: -0.14px;
+  letter-spacing: -0.15px;
 }
 
 .person__description--adam {
