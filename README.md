@@ -1,1 +1,1 @@
-# singolo https://joonys.github.io/singolo/
+# https://joonys.github.io/singolo/
