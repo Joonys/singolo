@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Singolo</title>
+    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="singolo1.css" />
     <link rel="stylesheet" href="singolo2.css" />
     <link rel="stylesheet" href="singolo3.css" />
@@ -38,8 +39,15 @@
               placeholder="Email (Required)"
               required
             />
-            <textarea
+            <input
               class="form__input"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+            <textarea
+              class="form__input form__input--textarea"
               name="comment"
               id="comment-field"
               cols="30"
@@ -52,22 +60,28 @@
           <div class="contacts">
             <h2 class="contacts__title">Contact Information</h2>
             <p class="contacts__description">
-              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
-              Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
-              sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
-              consequat felis.
+              Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra
+              nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
+              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
+              et consequat felis.
             </p>
             <ul class="contacts__list">
               <li class="contacts__item">
-                <a class="contacts__link" href="#">Elm St. 14/05 Lost City</a>
+                <a class="contacts__link contacts__link--location" href="#">
+                  Elm St. 14/05 Lost City
+                </a>
               </li>
               <li class="contacts__item">
-                <a class="contacts__link" href="tel:+035283318635"
+                <a
+                  class="contacts__link contacts__link--phone"
+                  href="tel:+035283318635"
                   >03528 331 86 35
                 </a>
               </li>
               <li class="contacts__item">
-                <a class="contacts__link" href="mailto:info@singolo.com"
+                <a
+                  class="contacts__link contacts__link--mail"
+                  href="mailto:info@singolo.com"
                   >info@singolo.com
                 </a>
               </li>
