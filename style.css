@@ -349,11 +349,14 @@ a {
 }
 
 .about-us__description {
+  max-width: 940px;
+  max-height: 65px;
   margin-bottom: 45px;
   color: #767e9e;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+  overflow: hidden;
 }
 
 .about-us__description::first-line {
@@ -459,12 +462,15 @@ a {
 }
 
 .quote__description {
+  max-width: 940px;
+  max-height: 65px;
   margin-bottom: 44px;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   color: #f0d8d9;
   text-align: justify;
+  overflow: hidden;
 }
 
 .quote__description::first-line {
