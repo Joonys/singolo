@@ -42,6 +42,16 @@ a {
   align-items: baseline;
 }
 
+.header-fixed {
+  padding: 20px 0 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.95;
+  z-index: 9999;
+}
+
 .header__logo {
   color: #ffffff;
   font-size: 25px;
